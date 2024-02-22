@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Arth.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Arth.Application": "1.0.0"
+        },
+        "runtime": {
+          "Arth.Infrastructure.dll": {}
+        }
+      },
+      "Arth.Application/1.0.0": {
+        "dependencies": {
+          "Arth.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Arth.Application.dll": {}
+        }
+      },
+      "Arth.Domain/1.0.0": {
+        "runtime": {
+          "Arth.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Arth.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Arth.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Arth.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
