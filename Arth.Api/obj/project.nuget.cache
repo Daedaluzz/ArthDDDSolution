@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "g5iFfNwl5t9NcLzFvm/0JewSEbLltUwVYOoYXsnwnapc1UM2JSmheCVMSlYzWTbtPvdhL2M7v89o7ylUmk7FQA==",
+  "dgSpecHash": "OfEnU7iFl5SksczlsyUvTRNWoc2DUgCY+K8Hyuv4jHovMBGWuyJKY4dsVuX1L6LPiK+KguUF5IQaKNSNpsv9ng==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Arth.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

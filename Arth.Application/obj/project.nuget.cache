@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "moJsxVXuVDTyJyMPZI4pRTxLdCFIrsVmTHK0I1ZY5ZV4RrJCuxkImo6aEYds+RblJp6KHatgu7tI8dgUkomdgw==",
+  "dgSpecHash": "NqMr0Oyn4tGj7qU8FcPJ3m/oZlvjR7ymfetVls+jC8smmafGHcPDaDFEzpqp/7YcDpk8ewRS3YYlLQRhb1kblA==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Arth.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

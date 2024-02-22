@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\services\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\services\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "Arth.Infrastructure\\DependancyInjection.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
+              "RelativeToolTip": "Arth.Infrastructure\\DependancyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T20:42:58.69Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,48 +41,9 @@
               "RelativeDocumentMoniker": "Arth.Api\\Program.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
               "RelativeToolTip": "Arth.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T20:23:34.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Arth.Api\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Arth.Api\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:44:09.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "RelativeToolTip": "Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:11:33.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Arth.Application\\Services\\Authentication\\IAuthenticationService.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\IAuthenticationService.cs",
-              "RelativeToolTip": "Arth.Application\\Services\\Authentication\\IAuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T19:10:23.133Z",
+              "WhenOpened": "2024-02-22T20:40:21.923Z",
               "EditorCaption": ""
             }
           ]

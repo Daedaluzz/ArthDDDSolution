@@ -1,9 +1,12 @@
-using Arth.Application.Services.Authentication;
+using Arth.Application;
+using Arth.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 {
-    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+    builder.Services
+        .AddApplication()
+        .AddInfrastructure();
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
