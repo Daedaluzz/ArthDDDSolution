@@ -5,6 +5,7 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\n
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.AssemblyInfoInputs.cache
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.AssemblyInfo.cs
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.csproj.CoreCompileInputs.cache
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.sourcelink.json
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\refint\Arth.Domain.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.pdb

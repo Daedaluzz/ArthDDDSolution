@@ -19,8 +19,4 @@
     <ProjectReference Include="..\Arth.Infrastructure\Arth.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

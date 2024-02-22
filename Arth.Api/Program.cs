@@ -1,11 +1,14 @@
+using Arth.Application.Services.Authentication;
+
 var builder = WebApplication.CreateBuilder(args);
 
 {
+    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
-}
 
+}
 var app = builder.Build();
 
 {
@@ -15,6 +18,7 @@ var app = builder.Build();
         app.UseSwaggerUI();
     }
     app.UseHttpsRedirection();
+    app.UseAuthorization();
     app.MapControllers();
     app.Run();
 }
