@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
         .AddApplication()
         .AddInfrastructure(builder.Configuration);
 
-    builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
+    //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
+    builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
@@ -24,6 +25,7 @@ var app = builder.Build();
     }
 
     //app.UseMiddleware<ErrorHandlingMiddleware>();
+    app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.UseAuthorization();
     app.MapControllers();
