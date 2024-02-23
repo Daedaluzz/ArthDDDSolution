@@ -1,28 +1,31 @@
 ﻿using Arth.Application.Common.Interfaces.Authentication;
-using Arth.Application.Common.Interfaces.Services;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using Microsoft.IdentityModel.JsonWebTokens;
 using System.Text;
+using Arth.Application.Common.Interfaces.Services;
+using Microsoft.Extensions.Options;
 
 
 namespace Arth.Infrastructure.Authentication;
 
 public class JwtTokenGenerator : IJwtTokenGenerator
 {
+    private readonly JwtSettings _jwtSettings;
+
     private readonly IDateTimeProvider _dateTimeProvider;
 
-    public JwtTokenGenerator(IDateTimeProvider dateTimeProvider)
+    public JwtTokenGenerator(IDateTimeProvider dateTimeProvider, IOptions<JwtSettings> jwtOptions)
     {
         _dateTimeProvider = dateTimeProvider;
+        _jwtSettings = jwtOptions.Value;
     }
 
     public string GenerateToken(Guid userId, string firstName, string lastName)
     {
         var signingCredentials = new SigningCredentials(
             new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes("super-ultra-chave-mais-que-secreta")),
+                Encoding.UTF8.GetBytes(_jwtSettings.Secret)),
                 SecurityAlgorithms.HmacSha256);
 
         var claims = new[]
@@ -35,8 +38,9 @@ public class JwtTokenGenerator : IJwtTokenGenerator
         };
 
         var securityToken = new JwtSecurityToken(
-            issuer: "ArthDddSolution",
-            expires: _dateTimeProvider.UtcNow.AddMinutes(60),
+            issuer: _jwtSettings.Issuer,
+            audience: _jwtSettings.Audience,
+            expires: _dateTimeProvider.UtcNow.AddMinutes(_jwtSettings.ExpiryMinutes),
             claims: claims,
             signingCredentials: signingCredentials);
 

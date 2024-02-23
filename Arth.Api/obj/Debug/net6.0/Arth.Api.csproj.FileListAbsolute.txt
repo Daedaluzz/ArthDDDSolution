@@ -45,3 +45,9 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

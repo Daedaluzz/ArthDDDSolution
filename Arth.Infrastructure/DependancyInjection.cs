@@ -14,7 +14,8 @@ namespace Arth.Infrastructure
             this IServiceCollection services,
             ConfigurationManager configuration)
         {
-            services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
+            services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
+
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
             return services;
