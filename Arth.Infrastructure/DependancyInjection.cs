@@ -2,6 +2,7 @@
 using Arth.Application.Common.Interfaces.Services;
 using Arth.Infrastructure.Authentication;
 using Arth.Infrastructure.Services;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Arth.Infrastructure
@@ -11,8 +12,9 @@ namespace Arth.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(
             this IServiceCollection services,
-            Microsoft.Extensions.Configuration.ConfigurationManager configuration)
+            ConfigurationManager configuration)
         {
+            services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
             return services;
