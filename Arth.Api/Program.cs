@@ -1,3 +1,4 @@
+using Arth.Api.Middleware;
 using Arth.Application;
 using Arth.Infrastructure;
 
@@ -21,6 +22,8 @@ var app = builder.Build();
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+
+    app.UseMiddleware<ErrorHandlingMiddleware>();
     app.UseHttpsRedirection();
     app.UseAuthorization();
     app.MapControllers();

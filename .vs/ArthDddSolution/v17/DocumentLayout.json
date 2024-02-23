@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\common\\interfaces\\authentication\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\common\\interfaces\\authentication\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\services\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\services\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\common\\interfaces\\persistence\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE9B3630-6133-4D8E-99BC-CA259545E60A}|Arth.Domain\\Arth.Domain.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE9B3630-6133-4D8E-99BC-CA259545E60A}|Arth.Domain\\Arth.Domain.csproj|solutionrelative:arth.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE9B3630-6133-4D8E-99BC-CA259545E60A}|Arth.Domain\\Arth.Domain.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.domain\\arth.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FE9B3630-6133-4D8E-99BC-CA259545E60A}|Arth.Domain\\Arth.Domain.csproj|solutionrelative:arth.domain\\arth.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAABAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Arth.Api\\Program.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
+              "RelativeToolTip": "Arth.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:37:56.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IJwtTokenGenerator.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Authentication\\IJwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Arth.Application\\Common\\Interfaces\\Authentication\\IJwtTokenGenerator.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Authentication\\IJwtTokenGenerator.cs",
-              "RelativeToolTip": "Arth.Application\\Common\\Interfaces\\Authentication\\IJwtTokenGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:35:09.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Arth.Api\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Arth.Api\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwC4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:34:07.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthenticationResult.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\AuthenticationResult.cs",
-              "RelativeDocumentMoniker": "Arth.Application\\Services\\Authentication\\AuthenticationResult.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\AuthenticationResult.cs",
-              "RelativeToolTip": "Arth.Application\\Services\\Authentication\\AuthenticationResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:32:29.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Persistence\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Arth.Infrastructure\\Persistence\\UserRepository.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Persistence\\UserRepository.cs",
-              "RelativeToolTip": "Arth.Infrastructure\\Persistence\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:25:17.461Z",
+              "WhenOpened": "2024-02-23T15:39:21.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "RelativeToolTip": "Arth.Application\\Services\\Authentication\\AuthenticationService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADgvx0AAAAJAAAA",
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:13:04.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Arth.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "RelativeToolTip": "Arth.Application\\Common\\Interfaces\\Persistence\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:10:18.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Arth.Domain\\Entities\\User.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Arth.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:07:35.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Arth.Domain",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Domain\\Arth.Domain.csproj",
-              "RelativeDocumentMoniker": "Arth.Domain\\Arth.Domain.csproj",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Domain\\Arth.Domain.csproj",
-              "RelativeToolTip": "Arth.Domain\\Arth.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-23T14:07:10.956Z",
+              "WhenOpened": "2024-02-23T15:32:24.63Z",
               "EditorCaption": ""
             }
           ]

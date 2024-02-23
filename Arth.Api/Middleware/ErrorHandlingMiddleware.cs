@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using System.Text.Json;
 
 namespace Arth.Api.Middleware
 {
@@ -26,7 +27,7 @@ namespace Arth.Api.Middleware
         private static Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             var code = HttpStatusCode.InternalServerError; //500 if unexpected
-            var result = JsonConvert.SerializeOnject(new { error = exception.Message });
+            var result = JsonSerializer.Serialize(new { error = "An error occurred while processing your request."});
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)code;
             return context.Response.WriteAsync(result);
