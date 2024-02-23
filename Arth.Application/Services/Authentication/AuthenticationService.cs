@@ -37,38 +37,32 @@ public class AuthenticationService : IAuthenticationService
         _userRepository.Add(user);
 
         //Create JWT token
-        var token = _jwtTokenGenerator.GenerateToken(user.Id, firstName, lastName);
+        var token = _jwtTokenGenerator.GenerateToken(user);
 
         return new AuthenticationResult(
-            user.Id,
-            firstName,
-            lastName,
-            email,
+            user,
             token);
     }
 
     public AuthenticationResult Login(string email, string password)
     {
         // Validating if the user exists
-        if(_userRepository.GetUserByEmail(email) is not User user) 
+        if (_userRepository.GetUserByEmail(email) is not User user)
         {
             throw new Exception("User with given email does not exist");
         }
 
         // Validating the password
-        if(user.Password != password)
+        if (user.Password != password)
         {
             throw new Exception("Invalid password");
         }
 
         //Creating Jwt token
-        var token = _jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+        var token = _jwtTokenGenerator.GenerateToken(user);
 
         return new AuthenticationResult(
-            user.Id,
-            user.FirstName,
-            user.LastName,
-            email,
+            user,
             token);
     }
 }
