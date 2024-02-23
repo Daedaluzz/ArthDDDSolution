@@ -1,4 +1,5 @@
-﻿using Arth.Domain.Entities;
+﻿
+using Arth.Domain.Entities;
 
 namespace Arth.Application.Common.Interfaces.Persistence;
 

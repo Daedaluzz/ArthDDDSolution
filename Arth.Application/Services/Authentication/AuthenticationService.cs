@@ -49,11 +49,26 @@ public class AuthenticationService : IAuthenticationService
 
     public AuthenticationResult Login(string email, string password)
     {
+        // Validating if the user exists
+        if(_userRepository.GetUserByEmail(email) is not User user) 
+        {
+            throw new Exception("User with given email does not exist");
+        }
+
+        // Validating the password
+        if(user.Password != password)
+        {
+            throw new Exception("Invalid password");
+        }
+
+        //Creating Jwt token
+        var token = _jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+
         return new AuthenticationResult(
-            Guid.NewGuid(),
-            "firstName",
-            "lastName",
+            user.Id,
+            user.FirstName,
+            user.LastName,
             email,
-            "token");
+            token);
     }
 }
