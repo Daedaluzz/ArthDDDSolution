@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "17NstbdujXyj/IXLtRc7bdbkPOxjXXN6n8WDK6xtQ6TJ8e0b7Neq/ph/KRaVYBbCM2WLDZ7xhyV6+iHH9LBv/Q==",
+  "dgSpecHash": "xas11BIsN5xdMylPkcsKQrgBCSaC9oenK9vYpEZ5x/UV0tuhfOJ7I7UfKfnV9MuQeE/RRYCAHOnF5kbKUtNlEQ==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.3.1\\microsoft.identitymodel.abstractions.7.3.1.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.3.1\\microsoft.identitymodel.jsonwebtokens.7.3.1.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.logging\\7.3.1\\microsoft.identitymodel.logging.7.3.1.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.3.1\\microsoft.identitymodel.tokens.7.3.1.nupkg.sha512"
   ],
   "logs": []
 }
