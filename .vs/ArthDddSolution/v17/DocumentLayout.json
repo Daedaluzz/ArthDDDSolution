@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\errors\\arthproblemsdetailsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\errors\\arthproblemsdetailsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\filters\\errorhandlingfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\filters\\errorhandlingfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorHandlingFilterAttribute.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Filters\\ErrorHandlingFilterAttribute.cs",
+              "RelativeDocumentMoniker": "Arth.Api\\Filters\\ErrorHandlingFilterAttribute.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Filters\\ErrorHandlingFilterAttribute.cs",
+              "RelativeToolTip": "Arth.Api\\Filters\\ErrorHandlingFilterAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T19:19:08.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArthProblemsDetailsFactory.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Errors\\ArthProblemsDetailsFactory.cs",
+              "RelativeDocumentMoniker": "Arth.Api\\Errors\\ArthProblemsDetailsFactory.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Errors\\ArthProblemsDetailsFactory.cs",
+              "RelativeToolTip": "Arth.Api\\Errors\\ArthProblemsDetailsFactory.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAewFoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T18:53:15.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ErrorsController.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\ErrorsController.cs",
               "RelativeDocumentMoniker": "Arth.Api\\Controllers\\ErrorsController.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\ErrorsController.cs",
               "RelativeToolTip": "Arth.Api\\Controllers\\ErrorsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T17:40:25.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Arth.Api\\Controllers\\AuthenticationController.cs",
@@ -56,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
               "RelativeDocumentMoniker": "Arth.Api\\Program.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
               "RelativeToolTip": "Arth.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:39:21.428Z",
               "EditorCaption": ""
@@ -75,7 +109,7 @@
               "RelativeDocumentMoniker": "Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
               "RelativeToolTip": "Arth.Api\\Middleware\\ErrorHandlingMiddleware.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T15:32:24.63Z",
               "EditorCaption": ""

@@ -11,7 +11,7 @@ namespace Arth.Api.Controllers
         {
             Exception? exception = HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
 
-            return Problem(title: exception?.Message, statusCode: 400);
+            return Problem();
         }
     }
 }
