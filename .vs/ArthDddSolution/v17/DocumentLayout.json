@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\authentication\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\authentication\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Arth.Api\\appsettings.Development.json",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\appsettings.Development.json",
-              "RelativeToolTip": "Arth.Api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-23T04:21:39.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAEwCAAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T03:58:38.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "Arth.Infrastructure\\Authentication\\JwtSettings.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtSettings.cs",
-              "RelativeToolTip": "Arth.Infrastructure\\Authentication\\JwtSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T03:57:06.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DependancyInjection.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
-              "RelativeDocumentMoniker": "Arth.Infrastructure\\DependancyInjection.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
-              "RelativeToolTip": "Arth.Infrastructure\\DependancyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T03:49:51.279Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
