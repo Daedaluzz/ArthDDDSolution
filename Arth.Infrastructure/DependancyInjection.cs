@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Arth.Application.Common.Interfaces.Authentication;
+using Arth.Infrastructure.Authentication;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Arth.Infrastructure
 
@@ -7,6 +9,7 @@ namespace Arth.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
+            services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             return services;
         }
     }

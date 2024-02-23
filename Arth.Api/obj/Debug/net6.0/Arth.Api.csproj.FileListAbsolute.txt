@@ -40,3 +40,8 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\obj\Debug\net6
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\obj\Debug\net6.0\Arth.Api.genruntimeconfig.cache
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\obj\Debug\net6.0\ref\Arth.Api.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -13,8 +13,9 @@ public class JwtTokenGenerator : IJwtTokenGenerator
     {
         var signingCredentials = new SigningCredentials(
             new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes("super-secret-key")),
-            SecurityAlgorithms.HmacSha256);
+                Encoding.UTF8.GetBytes("super-ultra-chave-mais-que-secreta")),
+                SecurityAlgorithms.HmacSha256);
+
         var claims = new[]
         {
             new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
