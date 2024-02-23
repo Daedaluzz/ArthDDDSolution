@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\services\\datetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\services\\datetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\common\\interfaces\\services\\idatetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\common\\interfaces\\services\\idatetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\common\\interfaces\\authentication\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\common\\interfaces\\authentication\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DateTimeProvider.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Services\\DateTimeProvider.cs",
+              "RelativeDocumentMoniker": "Arth.Infrastructure\\Services\\DateTimeProvider.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Services\\DateTimeProvider.cs",
+              "RelativeToolTip": "Arth.Infrastructure\\Services\\DateTimeProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:18:22.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDateTimeProvider.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "RelativeDocumentMoniker": "Arth.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "RelativeToolTip": "Arth.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:16:46.634Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,7 +66,7 @@
               "RelativeDocumentMoniker": "Arth.Infrastructure\\DependancyInjection.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
               "RelativeToolTip": "Arth.Infrastructure\\DependancyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T02:47:32.899Z",
               "EditorCaption": ""
@@ -45,14 +79,14 @@
               "RelativeDocumentMoniker": "Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
               "RelativeToolTip": "Arth.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADgvw8AAABKAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB8AAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T02:00:26.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IJwtTokenGenerator.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Interfaces\\Authentication\\IJwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "Arth.Application\\Common\\Interfaces\\Authentication\\IJwtTokenGenerator.cs",
