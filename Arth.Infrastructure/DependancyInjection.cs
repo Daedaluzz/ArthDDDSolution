@@ -4,25 +4,31 @@ using Arth.Application.Common.Interfaces.Services;
 using Arth.Infrastructure.Authentication;
 using Arth.Infrastructure.Persistence;
 using Arth.Infrastructure.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Arth.Infrastructure
+namespace Arth.Infrastructure;
 
+
+public static class DependancyInjection
 {
-    public static class DependancyInjection
+    public static IServiceCollection AddInfrastructure(
+        this IServiceCollection services,
+        ConfigurationManager configuration)
     {
-        public static IServiceCollection AddInfrastructure(
-            this IServiceCollection services,
-            ConfigurationManager configuration)
-        {
-            services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
+        services.AddAuth(configuration);
+        services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
-            services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
-            services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
-
-            services.AddScoped<IUserRepository, UserRepository>();
-            return services;
-        }
+        services.AddScoped<IUserRepository, UserRepository>();
+        return services;
+    }
+    public static IServiceCollection AddAuth(
+        this IServiceCollection services,
+        ConfigurationManager configuration)
+    {
+        services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
+        services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
+        services.AddAuthentication(defaultScheme: JwtBearerDefaults.AuthenticationScheme);
     }
 }
