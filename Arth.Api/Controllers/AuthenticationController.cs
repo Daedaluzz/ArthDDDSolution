@@ -33,7 +33,6 @@ public class AuthenticationController : ApiController
         return authResult.Match(
             authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors));
-
     }
 
     [HttpPost("login")]

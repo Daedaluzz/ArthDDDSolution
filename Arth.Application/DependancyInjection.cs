@@ -4,6 +4,8 @@ using Arth.Application.Authentication.Commands.Register;
 using Arth.Application.Authentication.Common;
 using Arth.Application.Common.Behaviors;
 using ErrorOr;
+using FluentValidation;
+using System.Reflection;
 
 namespace Arth.Application
 {
@@ -12,9 +14,12 @@ namespace Arth.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
-            services.AddScoped<
-                IPipelineBehavior<RegisterCommand, ErrorOr<AuthenticationResult>>,
-                ValidateRegisterCommandBehavior>();     
+
+            services.AddScoped(
+                typeof(IPipelineBehavior<,>),
+                typeof(ValidationBehavior<,>));
+
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             return services;
         }
     }

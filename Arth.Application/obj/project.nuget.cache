@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xhTntZOv8FIANTNuxcsNfMP3jhxwLIWz+bAHdFvbdJMIwts1BRbdWLD8aAb+34SHrVvP8LQqqqDEUm/loNL9+g==",
+  "dgSpecHash": "DfoAkZeXjfWnQJdoN2PdLFBfb/rm7Z8yroemGhwDV2iOngiw2njnmcnP7TeiM6irPHQBqP0/K5UzyCtzDD6pnQ==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Arth.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthu\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

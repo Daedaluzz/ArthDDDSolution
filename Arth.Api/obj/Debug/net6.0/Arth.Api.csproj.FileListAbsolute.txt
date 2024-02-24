@@ -57,3 +57,6 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Mapster.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Mapster.Core.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\FluentValidation.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

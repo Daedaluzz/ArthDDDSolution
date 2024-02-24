@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.application\\authentication\\commands\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{337CB75B-67DB-491E-805B-ED44C55E3982}|Arth.Application\\Arth.Application.csproj|solutionrelative:arth.application\\authentication\\commands\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterCommandValidator.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Authentication\\Commands\\Register\\RegisterCommandValidator.cs",
+              "RelativeDocumentMoniker": "Arth.Application\\Authentication\\Commands\\Register\\RegisterCommandValidator.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Authentication\\Commands\\Register\\RegisterCommandValidator.cs",
+              "RelativeToolTip": "Arth.Application\\Authentication\\Commands\\Register\\RegisterCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T15:21:30.477Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "Arth.Application\\DependancyInjection.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\DependancyInjection.cs",
               "RelativeToolTip": "Arth.Application\\DependancyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T15:15:23.447Z",
               "EditorCaption": ""
@@ -39,9 +56,9 @@
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "Arth.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "RelativeToolTip": "Arth.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Common\\Behaviors\\ValidationBehavior.cs*",
+              "RelativeToolTip": "Arth.Application\\Common\\Behaviors\\ValidationBehavior.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T15:06:13.467Z",
               "EditorCaption": ""
