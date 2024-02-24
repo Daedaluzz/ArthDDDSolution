@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dGH2Jny32SXHOEtfFTRJyWKzCKew+StA2dulpTeNy9Sx1QjLzPvlzQ1sYhEu+WfokGCOq5X4uBD1SqFpsJz+oQ==",
+  "dgSpecHash": "Iyv2XxQ12khFAu6VUrYJ8rsUes1xaKClSzYnFjQhr/sBadCOPl+hMtQsrZXZxxpZNyOughdLLEZbDOWJPqvmLA==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Arth.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthu\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
