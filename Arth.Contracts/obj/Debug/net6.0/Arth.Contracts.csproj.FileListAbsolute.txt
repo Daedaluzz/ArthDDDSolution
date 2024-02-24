@@ -5,6 +5,7 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debu
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\Arth.Contracts.AssemblyInfoInputs.cache
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\Arth.Contracts.AssemblyInfo.cs
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\Arth.Contracts.csproj.CoreCompileInputs.cache
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\Arth.Contracts.sourcelink.json
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\Arth.Contracts.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\refint\Arth.Contracts.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Contracts\obj\Debug\net6.0\Arth.Contracts.pdb
