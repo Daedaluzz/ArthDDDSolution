@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Arth.Api.Controllers
 {
     [Route("[controller]")]
-    public class LunchController : ApiController
+    public class LunchesController : ApiController
     {
         [HttpGet]
         public IActionResult ListLunches()

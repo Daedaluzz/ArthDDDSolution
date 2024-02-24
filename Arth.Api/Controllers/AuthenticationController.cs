@@ -6,12 +6,14 @@ using Arth.Domain.Common.Errors;
 using ErrorOr;
 using MapsterMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Arth.Api.Controllers;
 
 
 [Route("auth")]
+[AllowAnonymous] //Allow login and registration endpoints to be accessible
 public class AuthenticationController : ApiController
 {
     //ISender has the send method from mediator

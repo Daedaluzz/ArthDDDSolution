@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\arth.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\arth.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\lunchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\lunchescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.api\\controllers\\lunchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC3D62B-0F76-421D-89B0-70D2FB8B9D61}|Arth.Api\\Arth.Api.csproj|solutionrelative:arth.api\\controllers\\lunchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|f:\\realprojects\\ddd.net api with angular\\arthdddsolution\\arth.infrastructure\\arth.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7678DB3E-8566-4A10-837A-717F6ABE0CE2}|Arth.Infrastructure\\Arth.Infrastructure.csproj|solutionrelative:arth.infrastructure\\arth.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,16 +26,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Arth.Infrastructure",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Arth.Infrastructure\\Arth.Infrastructure.csproj",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj*",
-              "RelativeToolTip": "Arth.Infrastructure\\Arth.Infrastructure.csproj*",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
+              "RelativeToolTip": "Arth.Infrastructure\\Arth.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-02-24T17:35:17.011Z",
@@ -43,39 +43,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DependancyInjection.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
               "RelativeDocumentMoniker": "Arth.Infrastructure\\DependancyInjection.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\DependancyInjection.cs",
               "RelativeToolTip": "Arth.Infrastructure\\DependancyInjection.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAQwDIAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwCQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T17:32:28.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
               "RelativeDocumentMoniker": "Arth.Api\\Program.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Program.cs",
               "RelativeToolTip": "Arth.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T17:31:38.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LunchController.cs",
-              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\LunchController.cs",
-              "RelativeDocumentMoniker": "Arth.Api\\Controllers\\LunchController.cs",
-              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\LunchController.cs",
-              "RelativeToolTip": "Arth.Api\\Controllers\\LunchController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "LunchesController.cs",
+              "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\LunchesController.cs",
+              "RelativeDocumentMoniker": "Arth.Api\\Controllers\\LunchesController.cs",
+              "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\LunchesController.cs",
+              "RelativeToolTip": "Arth.Api\\Controllers\\LunchesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T17:24:54.946Z",
               "EditorCaption": ""

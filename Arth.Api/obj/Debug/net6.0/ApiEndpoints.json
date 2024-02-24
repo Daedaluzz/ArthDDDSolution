@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Arth.Api.Controllers.LunchController",
+    "ContainingType": "Arth.Api.Controllers.LunchesController",
     "Method": "ListLunches",
-    "RelativePath": "Lunch",
+    "RelativePath": "Lunches",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
