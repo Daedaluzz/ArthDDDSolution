@@ -1,5 +1,6 @@
 ﻿using Arth.Application.Services.Authentication;
 using Arth.Contracts.Authentication;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Arth.Api.Controllers;
@@ -16,23 +17,30 @@ public class AuthenticationController : ControllerBase
     }
 
     [HttpPost("register")]
-    public IActionResult Register (RegisterRequest request)
+    public IActionResult Register(RegisterRequest request)
     {
-        var authResult = _authenticationService.Register(
+        ErrorOr<AuthenticationResult> authResult = _authenticationService.Register(
             request.FirstName,
             request.LastName,
             request.Email,
             request.Password);
 
-        var response = new AuthenticationResponse(
-            authResult.User.Id,
-            authResult.User.FirstName,
-            authResult.User.LastName,
-            authResult.User.Email,
-            authResult.Token);
+        return authResult.Match(
+            authResult => Ok(NewMethod(authResult)),
+            _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "User alredy exists."));
 
-        return Ok(response);
     }
+
+    private static AuthenticationResponse NewMethod(AuthenticationResult authResult)
+    {
+        return new AuthenticationResponse(
+                    authResult.User.Id,
+                    authResult.User.FirstName,
+                    authResult.User.LastName,
+                    authResult.User.Email,
+                    authResult.Token);
+    }
+
     [HttpPost("login")]
     public IActionResult Login(LoginRequest request)
     {

@@ -10,3 +10,4 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\n
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\refint\Arth.Domain.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.pdb
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\ref\Arth.Domain.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Domain\obj\Debug\net6.0\Arth.Domain.csproj.AssemblyReference.cache

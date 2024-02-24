@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cqWhp0Xgt5CQnwmZqrZgR553BG5FlOiL7nkd0B8CdF9tacZ+XMONB0xWwznEWZJgqdKkWXFhUavR8vTMLJqyOg==",
+  "dgSpecHash": "AoPqvKgtstOYt4PLKDMB6lqEtBZ0vNHOQcCgSfRvaBjYZMz3N2IHdeZzjWrqjkKOyqLEhuMDSda6CH6fKBQWLw==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\arthu\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",

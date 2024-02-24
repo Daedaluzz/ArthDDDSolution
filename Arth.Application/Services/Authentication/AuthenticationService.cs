@@ -1,7 +1,9 @@
 ﻿
 using Arth.Application.Common.Interfaces.Authentication;
 using Arth.Application.Common.Interfaces.Persistence;
+using Arth.Domain.Common.Errors;
 using Arth.Domain.Entities;
+using ErrorOr;
 
 namespace Arth.Application.Services.Authentication;
 
@@ -16,12 +18,12 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
         //Validating if the user dosn't exist
         if (_userRepository.GetUserByEmail(email) is not null)
         {
-            throw new Exception("user with given email alredy exists");
+            return Errors.Users.DuplicateEmail;
         }
 
 
