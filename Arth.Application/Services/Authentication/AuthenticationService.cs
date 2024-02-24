@@ -46,18 +46,18 @@ public class AuthenticationService : IAuthenticationService
             token);
     }
 
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
         // Validating if the user exists
         if (_userRepository.GetUserByEmail(email) is not User user)
         {
-            throw new Exception("User with given email does not exist");
+            return Errors.Authentication.InvalidCredentials;
         }
 
         // Validating the password
         if (user.Password != password)
         {
-            throw new Exception("Invalid password");
+            return Errors.Authentication.InvalidCredentials;
         }
 
         //Creating Jwt token

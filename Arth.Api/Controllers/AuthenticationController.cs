@@ -25,20 +25,10 @@ public class AuthenticationController : ControllerBase
             request.Email,
             request.Password);
 
-        return authResult.Match(
-            authResult => Ok(NewMethod(authResult)),
-            _ => Problem(statusCode: StatusCodes.Status409Conflict, title: "User alredy exists."));
+        return authResult.MatchFirst(
+            authResult => Ok(MapAuthResult(authResult)),
+            firstError => Problem(statusCode: StatusCodes.Status409Conflict, title: firstError.Description));
 
-    }
-
-    private static AuthenticationResponse NewMethod(AuthenticationResult authResult)
-    {
-        return new AuthenticationResponse(
-                    authResult.User.Id,
-                    authResult.User.FirstName,
-                    authResult.User.LastName,
-                    authResult.User.Email,
-                    authResult.Token);
     }
 
     [HttpPost("login")]
@@ -56,5 +46,14 @@ public class AuthenticationController : ControllerBase
             authResult.Token);
 
         return Ok(response);
+    }
+    private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
+    {
+        return new AuthenticationResponse(
+                    authResult.User.Id,
+                    authResult.User.FirstName,
+                    authResult.User.LastName,
+                    authResult.User.Email,
+                    authResult.Token);
     }
 }
