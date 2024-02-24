@@ -31,15 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Arth.Infrastructure",
+              "Title": "Arth.Infrastructure.csproj",
               "DocumentMoniker": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Arth.Infrastructure\\Arth.Infrastructure.csproj",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
               "RelativeToolTip": "Arth.Infrastructure\\Arth.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-24T17:35:17.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T17:35:17.011Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Arth.Infrastructure\\DependancyInjection.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAQwCQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T17:32:28.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T17:32:28.658Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "Arth.Api\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T17:31:38.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T17:31:38.801Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "Arth.Api\\Controllers\\LunchesController.cs",
               "ToolTip": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Api\\Controllers\\LunchesController.cs",
               "RelativeToolTip": "Arth.Api\\Controllers\\LunchesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-24T17:24:54.946Z",
               "EditorCaption": ""
