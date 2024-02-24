@@ -1,22 +1,16 @@
-using Arth.Api.Common.Errors;
+using Arth.Api;
 using Arth.Application;
 using Arth.Infrastructure;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 {
     builder.Services
+        .AddPresentation()
         .AddApplication()
         .AddInfrastructure(builder.Configuration);
-
-
-    builder.Services.AddControllers();
-    builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
-    builder.Services.AddSingleton<ProblemDetailsFactory, ArthProblemDetailsFactory>();
-
 }
+
 var app = builder.Build();
 
 {

@@ -54,3 +54,6 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\ErrorOr.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\MediatR.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Mapster.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Mapster.Core.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
