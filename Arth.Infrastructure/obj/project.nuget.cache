@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AoPqvKgtstOYt4PLKDMB6lqEtBZ0vNHOQcCgSfRvaBjYZMz3N2IHdeZzjWrqjkKOyqLEhuMDSda6CH6fKBQWLw==",
+  "dgSpecHash": "+FoeFbQtrBhaMTC7Pey5K/g4wDQ0XwkSrsoisgfn9UQA3zSOP+ZLmv+5Hue9103APfMX3IwYnObqyTlBP5GwLQ==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Infrastructure\\Arth.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthu\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",

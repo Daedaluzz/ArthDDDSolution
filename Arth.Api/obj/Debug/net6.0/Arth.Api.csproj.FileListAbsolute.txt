@@ -52,3 +52,5 @@ F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\ErrorOr.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\MediatR.dll
+F:\RealProjects\DDD.net API with Angular\ArthDddSolution\Arth.Api\bin\Debug\net6.0\MediatR.Contracts.dll

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3h7cTYfHrEFJ7OVU2p+lMTUN5Kq1CmqeGHVAO95cVDdXegTvbI1mk+TCUyuWlTA88Iqw+jwvAJ6V8Fj+F+kFw==",
+  "dgSpecHash": "xkqAhkUeKfPvvkw/EpjVIavCp4vpZUKeEp2h3RsbY5nSr+sxMVoKa9jUlRBWoLdF3qVKs0eZzDeazfxNHIIJeQ==",
   "success": true,
   "projectFilePath": "F:\\RealProjects\\DDD.net API with Angular\\ArthDddSolution\\Arth.Application\\Arth.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthu\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\arthu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\arthu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []

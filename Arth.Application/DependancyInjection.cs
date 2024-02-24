@@ -1,6 +1,5 @@
-﻿using Arth.Application.Services.Authentication.Commands;
-using Arth.Application.Services.Authentication.Queries;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using MediatR;
 
 namespace Arth.Application
 {
@@ -8,8 +7,8 @@ namespace Arth.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            services.AddScoped<IAuthenticationCommandService, AuthenticationCommandService>();
-            services.AddScoped<IAuthenticationQueryService, AuthenticationQueryService>();
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies())); ;
+     
             return services;
         }
     }

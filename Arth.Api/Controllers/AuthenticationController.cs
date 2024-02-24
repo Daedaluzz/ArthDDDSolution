@@ -1,9 +1,10 @@
-﻿using Arth.Application.Services.Authentication.Commands;
-using Arth.Application.Services.Authentication.Common;
-using Arth.Application.Services.Authentication.Queries;
+﻿using Arth.Application.Authentication.Commands.Register;
+using Arth.Application.Authentication.Common;
+using Arth.Application.Authentication.Queries.Login;
 using Arth.Contracts.Authentication;
 using Arth.Domain.Common.Errors;
 using ErrorOr;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Arth.Api.Controllers;
@@ -12,26 +13,19 @@ namespace Arth.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationCommandService _authenticationCommandService;
-    private readonly IAuthenticationQueryService _authenticationQueryService;
+    private readonly ISender _mediator;
 
-    public AuthenticationController(
-        IAuthenticationCommandService authenticationService,
-        IAuthenticationQueryService authenticationQueryService)
+    public AuthenticationController(ISender mediator)
     {
-        _authenticationCommandService = authenticationService;
-        _authenticationQueryService = authenticationQueryService;
+        _mediator = mediator;
     }
 
     [HttpPost("register")]
-    public IActionResult Register(RegisterRequest request)
+    public async Task<IActionResult> Register(RegisterRequest request)
     {
-        ErrorOr<AuthenticationResult> authResult = _authenticationCommandService.Register(
-            request.FirstName,
-            request.LastName,
-            request.Email,
-            request.Password);
-
+        var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
+        ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
+         
         return authResult.Match(
             authResult => Ok(MapAuthResult(authResult)),
             errors => Problem(errors));
@@ -39,11 +33,10 @@ public class AuthenticationController : ApiController
     }
 
     [HttpPost("login")]
-    public IActionResult Login(LoginRequest request)
+    public async Task<IActionResult> Login(LoginRequest request)
     {
-        var authResult = _authenticationQueryService.Login(
-            request.Email,
-            request.Password);
+        var query = new LoginQuery(request.Email, request.Password);
+        var authResult = await _mediator.Send(query);
 
         //Add any other specific logic for error handling here
         if (authResult.IsError && authResult.FirstError == Errors.Authentication.InvalidCredentials)
