@@ -24,6 +24,9 @@ internal class RegisterCommandHandler :
 
     public async Task<ErrorOr<AuthenticationResult>> Handle(RegisterCommand command, CancellationToken cancellationToken)
     {
+        //To fix generating a state machine even withou doing anything asyncronous
+        await Task.CompletedTask;
+
         //Validating if the user dosn't exist
         if (_userRepository.GetUserByEmail(command.Email) is not null)
         {

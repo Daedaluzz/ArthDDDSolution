@@ -9,12 +9,12 @@ using MediatR;
 
 namespace Arth.Application.Authentication.Commands.Login;
 
-public class LoginCommandHandler :
+public class LoginQueryHandler :
     IRequestHandler<LoginQuery, ErrorOr<AuthenticationResult>>
 {
     private readonly IJwtTokenGenerator _jwtTokenGenerator;
     private readonly IUserRepository _userRepository;
-    public LoginCommandHandler(
+    public LoginQueryHandler(
         IJwtTokenGenerator jwtTokenGenerator,
         IUserRepository userRepository)
     {
@@ -24,6 +24,9 @@ public class LoginCommandHandler :
 
     public async Task<ErrorOr<AuthenticationResult>> Handle(LoginQuery query, CancellationToken cancellationToken)
     {
+        //To fix generating a state machine even withou doing anything asyncronous
+        await Task.CompletedTask;
+
         // Validating if the user exists
         if (_userRepository.GetUserByEmail(query.Email) is not User user)
         {
