@@ -1,4 +1,6 @@
-﻿using Arth.Application.Services.Authentication;
+﻿using Arth.Application.Services.Authentication.Commands;
+using Arth.Application.Services.Authentication.Common;
+using Arth.Application.Services.Authentication.Queries;
 using Arth.Contracts.Authentication;
 using Arth.Domain.Common.Errors;
 using ErrorOr;
@@ -10,17 +12,21 @@ namespace Arth.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IAuthenticationService _authenticationService;
+    private readonly IAuthenticationCommandService _authenticationCommandService;
+    private readonly IAuthenticationQueryService _authenticationQueryService;
 
-    public AuthenticationController(IAuthenticationService authenticationService)
+    public AuthenticationController(
+        IAuthenticationCommandService authenticationService,
+        IAuthenticationQueryService authenticationQueryService)
     {
-        _authenticationService = authenticationService;
+        _authenticationCommandService = authenticationService;
+        _authenticationQueryService = authenticationQueryService;
     }
 
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest request)
     {
-        ErrorOr<AuthenticationResult> authResult = _authenticationService.Register(
+        ErrorOr<AuthenticationResult> authResult = _authenticationCommandService.Register(
             request.FirstName,
             request.LastName,
             request.Email,
@@ -35,7 +41,7 @@ public class AuthenticationController : ApiController
     [HttpPost("login")]
     public IActionResult Login(LoginRequest request)
     {
-        var authResult = _authenticationService.Login(
+        var authResult = _authenticationQueryService.Login(
             request.Email,
             request.Password);
 
