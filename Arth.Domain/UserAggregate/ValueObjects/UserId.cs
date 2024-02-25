@@ -1,21 +1,22 @@
 ﻿using Arth.Domain.Common.Models;
-namespace Arth.Domain.BillAggregate.ValueObjects;
 
-public sealed class BillId : AggregateRootId<Guid>
+namespace Arth.Domain.UserAggregate.ValueObjects;
+
+public sealed class UserId : AggregateRootId<Guid>
 {
     public override Guid Value { get; protected set; }
 
-    private BillId(Guid value)
+    private UserId(Guid value)
     {
         Value = value;
     }
 
-    public static BillId CreateUnique()
+    public static UserId CreateUnique()
     {
         return new(Guid.NewGuid());
     }
 
-    public static BillId Create(Guid value)
+    public static UserId Create(Guid value)
     {
         return new(value);
     }
@@ -24,4 +25,7 @@ public sealed class BillId : AggregateRootId<Guid>
     {
         yield return Value;
     }
+
+    public static implicit operator Guid(UserId data)
+        => data.Value;
 }

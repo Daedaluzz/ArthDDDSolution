@@ -1,4 +1,5 @@
-﻿using Arth.Domain.Common.Models;
+﻿
+using Arth.Domain.Common.Models;
 using Arth.Domain.Common.ValueObjects;
 using Arth.Domain.LunchAggregate.Entities;
 using Arth.Domain.LunchAggregate.ValueObjects;
@@ -31,7 +32,7 @@ public sealed class Lunch : AggregateRoot<LunchId>
     public DateTime UpdatedDateTime { get; }
 
     private Lunch(
-        LunchId lunchId,
+        LunchId id,
         string name,
         string description,
         DateTime startDateTime,
@@ -46,7 +47,7 @@ public sealed class Lunch : AggregateRoot<LunchId>
         Location location,
         DateTime createdDateTime,
         DateTime updatedDateTime)
-        : base(lunchId)
+        : base(id)
     {
         Name = name;
         Description = description;

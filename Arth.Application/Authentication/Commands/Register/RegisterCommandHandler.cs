@@ -3,7 +3,9 @@ using Arth.Application.Common.Interfaces.Authentication;
 using Arth.Application.Common.Interfaces.Persistence;
 using Arth.Domain.Common.Errors;
 using Arth.Domain.Entities;
+
 using ErrorOr;
+
 using MediatR;
 
 namespace Arth.Application.Authentication.Commands.Register;
@@ -35,21 +37,20 @@ internal class RegisterCommandHandler :
 
 
         //Create user (generate unique ID) & persist to the DB
-        var user = new User
-        {
-            FirstName = command.FirstName,
-            LastName = command.LastName,
-            Email = command.Email,
-            Password = command.Password
-        };
+        var user = User.Create
+        (
+            command.FirstName,
+            command.LastName,
+            command.Email,
+            command.Password
+        );
 
         _userRepository.Add(user);
 
         //Create JWT token
         var token = _jwtTokenGenerator.GenerateToken(user);
-
         return new AuthenticationResult(
             user,
-            token);
+            token); ;
     }
 }

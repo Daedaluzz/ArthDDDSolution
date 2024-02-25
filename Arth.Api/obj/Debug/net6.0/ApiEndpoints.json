@@ -42,6 +42,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Arth.Api.Controllers.MenusController",
+    "Method": "CreateMenu",
+    "RelativePath": "hosts/{hostId}/menus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Arth.Contracts.Menus.CreateMenuRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "hostId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Arth.Api.Controllers.LunchesController",
     "Method": "ListLunches",
     "RelativePath": "Lunches",
