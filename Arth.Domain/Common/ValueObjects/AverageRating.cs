@@ -1,4 +1,5 @@
 ﻿using Arth.Domain.Common.Models;
+using Arth.Domain.GuestAggregate.Entities;
 
 namespace Arth.Domain.Common.ValueObjects;
 

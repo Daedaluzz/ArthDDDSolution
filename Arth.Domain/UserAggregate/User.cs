@@ -1,4 +1,7 @@
-﻿namespace Arth.Domain.Entities;
+﻿using Arth.Domain.Common.Models;
+using Arth.Domain.UserAggregate.ValueObjects;
+
+namespace Arth.Domain.Entities;
 
 public class User
 {
